@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CONFIG_ITEM_NAME_RING_TIMEOUT" xml:space="preserve">
+    <value>RingTimeout</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="icon-exit-disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-exit-disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_TEXT_INPUT_ENDPOINT_ID_LABLE" xml:space="preserve">
+    <value>Azonosító:</value>
+  </data>
+  <data name="MSG_TEXT_NO_CLIENT" xml:space="preserve">
+    <value>Nincs hívható kliens!</value>
+  </data>
+  <data name="CONFIG_ITEM_NAME_STATION_ID" xml:space="preserve">
+    <value>StationId</value>
+  </data>
+  <data name="MSG_TEXT_FAIL_UPLOADING_PHOTO" xml:space="preserve">
+    <value>A kép feltöltése sikertelen!</value>
+  </data>
+  <data name="MSG_TEXT_INPUT_SERVER_URL" xml:space="preserve">
+    <value>Kérem adja meg a szerver címét!</value>
+  </data>
+  <data name="CONFIG_ITEM_NAME_PICTURE_WIDTH" xml:space="preserve">
+    <value>PictureWidth</value>
+  </data>
+  <data name="DEFAULT_RING_TIMEOUT" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="CONFIG_ITEM_NAME_ENDPOINT_ID" xml:space="preserve">
+    <value>EndpointId</value>
+  </data>
+  <data name="ring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="icon-exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_TEXT_CONNECTING_TO_SERVER" xml:space="preserve">
+    <value>Kapcsolódás a szerverhez...</value>
+  </data>
+  <data name="MSG_TEXT_INPUT_ENDPOINT_ID" xml:space="preserve">
+    <value>Kérem adja meg a végpont azonosítóját!</value>
+  </data>
+  <data name="WINDOW_MINIMIZED" xml:space="preserve">
+    <value>WindowMinimized</value>
+  </data>
+  <data name="WINDOW_MAXIMIZED" xml:space="preserve">
+    <value>WindowMaximized</value>
+  </data>
+  <data name="MSG_TEXT_CALLING_DISPATCHER" xml:space="preserve">
+    <value>Gyógyszerész hívása folyamatban</value>
+  </data>
+  <data name="WINDOW_SIZE" xml:space="preserve">
+    <value>WindowSize</value>
+  </data>
+  <data name="DEFAULT_STATION_ID" xml:space="preserve">
+    <value>01</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_TEXT_READY_CALL" xml:space="preserve">
+    <value>Készen áll a hívásfogadásra.</value>
+  </data>
+  <data name="icon-sendmsg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-sendmsg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_TEXT_REDIRECTING_CALL" xml:space="preserve">
+    <value>Átirányítás a központba...</value>
+  </data>
+  <data name="icon-camera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-camera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DEFAULT_PRIMARY_CAMERA" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="MSG_TEXT_NO_DISPATCHER" xml:space="preserve">
+    <value>Nincs hívható gyógyszerész!</value>
+  </data>
+  <data name="MSG_TEXT_CALLING_CENTRAL_DISPATCHER" xml:space="preserve">
+    <value>Központ hívása folyamatban...</value>
+  </data>
+  <data name="CONFIG_ITEM_NAME_SERVER_URL" xml:space="preserve">
+    <value>ServerURL</value>
+  </data>
+  <data name="MSG_TEXT_CHECK_CONFIG" xml:space="preserve">
+    <value>Kérem állítsa be a konfigurációt</value>
+  </data>
+  <data name="DEFAULT_PHOTO_FOLDER" xml:space="preserve">
+    <value>Downloads</value>
+  </data>
+  <data name="MSG_TEXT_INCOMMING_CALL" xml:space="preserve">
+    <value>Bejövő hívás</value>
+  </data>
+  <data name="WINDOW_STATE" xml:space="preserve">
+    <value>WindowState</value>
+  </data>
+  <data name="icon-person" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_TEXT_SUCCESS_TAKING_PHOTO" xml:space="preserve">
+    <value>A kép sikeresen elkészült.</value>
+  </data>
+  <data name="MSG_TEXT_FAIL_TAKING_PHOTO" xml:space="preserve">
+    <value>A kép készítése nem sikerült!</value>
+  </data>
+  <data name="MSG_TEXT_TAKING_PHOTO" xml:space="preserve">
+    <value>Kép készítése folyamatban...</value>
+  </data>
+  <data name="APPLICATION_NAME" xml:space="preserve">
+    <value>KommFlex</value>
+  </data>
+  <data name="CONFIG_ITEM_NAME_PICTURE_DISPLAY_APP" xml:space="preserve">
+    <value>PictureDisplayApp</value>
+  </data>
+  <data name="MSG_TEXT_CLOSED_APP_CONNECTION_ERR" xml:space="preserve">
+    <value>Szerverkapcsolati hiba miatt az alkalmazást be kell zárni!</value>
+  </data>
+  <data name="DEFAULT_DISPATCHER_VIDEO_DISPLAY_MODE" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="icon-sendmsg-disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-sendmsg-disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_TEXT_INPUT_SERVER_URL_LABEL" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="WINDOW_LOCATION" xml:space="preserve">
+    <value>WindowLocation</value>
+  </data>
+  <data name="MSG_TEXT_FAIL_REDIRECTING_CALL" xml:space="preserve">
+    <value>Nem irányítható át a központhoz, mert az nem elérhető!</value>
+  </data>
+  <data name="MSG_TEXT_FAIL_CONNECTION" xml:space="preserve">
+    <value>A szerverhez nem lehet kapcsolódni!</value>
+  </data>
+  <data name="MSG_TEXT_TAKING_CLIENT_PHOTO" xml:space="preserve">
+    <value>Kép készítése folyamatban...</value>
+  </data>
+  <data name="icon-2ndcam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-2ndcam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MSG_TEXT_PRESS_BUTTON" xml:space="preserve">
+    <value>Kérem nyomja meg a gombot a hívásindításhoz!</value>
+  </data>
+  <data name="icon-2ndcam-disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-2ndcam-disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DEFAULT_PHOTO_VIEWER" xml:space="preserve">
+    <value>mspaint.exe</value>
+  </data>
+  <data name="CONFIG_FILE_NAME" xml:space="preserve">
+    <value>config.xml</value>
+  </data>
+  <data name="CONFIG_ITEM_NAME_PRIMARY_CAMERA" xml:space="preserve">
+    <value>PrimaryCamera</value>
+  </data>
+  <data name="MSG_TEXT_CANNOT_FIND_DISPATCHER" xml:space="preserve">
+    <value>Nem található gyógyszerész! Kérjük egyeztessen a rendszergazdával!</value>
+  </data>
+  <data name="MSG_TEXT_CANNOT_FIND_SERVER" xml:space="preserve">
+    <value>A szerver URL cím nem található!</value>
+  </data>
+  <data name="CONFIG_ITEM_NAME_PICTURE_FOLDER" xml:space="preserve">
+    <value>PictureFolder</value>
+  </data>
+  <data name="icon-decline" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-decline.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon-camera-disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon-camera-disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DEFAULT_SECONDARY_CAMERA" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BACKGROUND_FILE_NAME" xml:space="preserve">
+    <value>background.png</value>
+  </data>
+  <data name="CONFIG_ITEM_NAME_SECONDARY_CAMERA" xml:space="preserve">
+    <value>SecondaryCamera</value>
+  </data>
+  <data name="arrow_down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
